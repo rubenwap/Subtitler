@@ -96,5 +96,7 @@ for video in hashes:
         cwd, cwd, video["filename"][0:-3] + "m4v", "{Name:" + name + "}{TV Show:" + tvshow + "}{TV Season:" + season + "}{TV Episode #:" + episode + "}{Media Kind:TV Show}", cwd, video["filename"])
     subler_command_srt = r"'{}/SublerCLI' -source '{}/{}' -language English -dest '{}/{}'".format(
         cwd, cwd, video["filename"][0:-3] + "srt", cwd, video["filename"][0:-3] + "m4v")
+    os.system(subler_command)
+    os.system(subler_command_srt)
     os.rename(video["filename"][0:-3] + "m4v", "/Users/ruben/Music/iTunes/iTunes Media/Automatically Add to iTunes.localized/" +
               video["filename"][video["filename"].find("/") + 1:-3] + "m4v")
