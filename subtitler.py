@@ -53,7 +53,7 @@ for single_type in types:
 
 
 headers = {
-    'User-Agent': 'SubDB/1.0 (Subtest/0.1; http://github.com/not_yet)',
+    'User-Agent': 'SubDB/1.0 (Subtitler/0.1; https://github.com/rubenwap/Subtitler)',
 }
 
 url_search = 'http://api.thesubdb.com/?action=search&hash={}'
