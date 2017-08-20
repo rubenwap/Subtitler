@@ -1,5 +1,7 @@
 *.mp4
 *.srt
-
+test/
 SublerCLI
+.ipynb_checkpoints/
+
 
