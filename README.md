@@ -1,6 +1,6 @@
 # Subtitler
 
-Script made for personal use, so you might have to tweak some things to get it fully working. 
+Script made for personal use, so you might have to tweak some attributes to get it working for your case. 
 
 What it does:
 
@@ -12,4 +12,8 @@ What it does:
 
 - Uses SublerCLI to create an Apple friendly version of the video
 
-This is geared for TV episodes, which are mostly the only kind of videos I use it for. You can change the media type and add other APIs if you want a solution adapted to your needs. 
+## Requirements:
+
+- THETVDB API Credentials (get them at https://www.thetvdb.com/)
+- Register your app at The SUB DB (http://thesubdb.com/)
+- Install SublerCLI in your PATH (https://bitbucket.org/galad87/sublercli/downloads/)
